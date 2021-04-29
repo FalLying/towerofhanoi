@@ -195,8 +195,8 @@ func printWorld(tower Tower) {
 }
 
 func initGame(tower *Tower) {
-	// *tower = Tower{Column{1, []int{3, 2, 1}}, Column{9, []int{}}, Column{9, []int{}}}
-	*tower = Tower{Column{1, []int{1}}, Column{9, []int{}}, Column{2, []int{3, 2}}}
+	*tower = Tower{Column{1, []int{3, 2, 1}}, Column{9, []int{}}, Column{9, []int{}}}
+	// *tower = Tower{Column{1, []int{1}}, Column{9, []int{}}, Column{2, []int{3, 2}}}
 }
 
 func main() {
